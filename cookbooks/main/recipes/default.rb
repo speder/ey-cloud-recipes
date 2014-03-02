@@ -106,8 +106,8 @@
  if ['solo','db_master', 'db_slave'].include?(node[:instance_role])
   # Extensions that support both Postgres 9.0, 9.1 and 9.2
   # postgresql9_autoexplain "dbname"
-  postgresql9_btree_gin "dbname"
-  postgresql9_btree_gist "dbname"
+  postgresql9_btree_gin "simpletrials"
+  postgresql9_btree_gist "simpletrials"
   # postgresql9_chkpass "dbname"
   # postgresql9_citext "dbname"
   # postgresql9_cube "dbname"
